@@ -4,7 +4,7 @@ A very simple SPA voting system for conferences and other alike events. Simply c
 ### Getting started
 You will need [ionic](http://ionicframework.com/) installed and [node](http://nodejs.org/) installed.
  1. Create app with 'ionic start myApp blank'. 
- 2. Run `ionic add platform android` to create android app or replace with ios for iphone (not tested). 
+ 2. Run `ionic platform add android` to create android app or replace with ios for iphone (not tested). 
  3. Replace contents of `www` directory with this repository.
  4. In `www/js/main.js` change `var socket = io.connect("http://vote.teodors.lv");` to your specific back-end, this is a demo.
  5. (Optionally) add description in `config.xml` or change app icon in `platforms\android\res`.
